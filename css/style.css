@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+
+
+/*  style of navbar */
+
+
+
+nav ul{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    font-size: 18px;
+   
+}
+
+nav{
+    box-shadow: 3px 3px 5px rgba(0, 0,0, 0.1);
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 200;
+}
+
+
+.nav-item{
+    padding: 30px 20px 10px 10px;
+    display: flex;
+    align-items: center;  
+}
+
+nav a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+   
+    
+}
+
+nav a:hover{
+   color: brown;
+}
+
+nav li:first-child{
+    margin-right: auto;
+    padding: 20px 20px 0px;
+
+}
+
+#navheader{
+    color: brown;
+    padding-left: 20px;
+    font-weight: 200;
+}
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin-top: 85px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1000000;
+}
+
+.dropdown-custom:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 10px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown-content {
+    top: 0;
+    
+}
+
+
+/*  style of navbar */
+
+
+
+
+
+/*  Google Fonts class */
+
+.pt-serif-regular {
+    font-family: "PT Serif", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+}
+
+
+
+/*  Profile section 1 */
+
+.profile{
+    background-color: rgb(249, 249, 249);
+    width: 80rem;
+    margin-left: 300px;
+    margin-top: 200px;
+    margin-bottom: 150px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 7px 5px 0px rgba(194,192,194,0.58);
+    
+}
+
+.sub-profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 50px 50px 120px;   
+}
+
+.sub-profile > p{
+    margin: 100px 100px 0px;
+    width: 600px;
+    height: 400px;
+}
+.heading-name{
+    color: rgb(250, 250, 250);
+    height: 80px;
+    display: none;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.contact-icons{
+   margin-left: 40rem;
+   display: flex;
+   list-style: none;
+   color: white;
+}
+
+.contact-icons li{
+    padding: 20px 20px;
+}
+
+
+.contact-icons li:hover{
+    color: brown;
+  
+} 
+
+.contact-icons li a{
+    color: white;
+
+}
+
+.contact-icons li a:hover{
+    color: brown;
+
+}
+
+.icons-to{
+    width:30px;
+    height:30px;
+    list-style: none; 
+    padding-left: 10px;
+    /* background-color: blue; */
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: static;
+}
+
+.icons-to img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    box-shadow: -1px 18px 24px 0px rgb(161, 161, 161);
+}
+
+.icons-to img:hover{
+    width: 60px;
+    height: 60px;
+   transition: 1s;
+}
+
+.section1-profile{
+    height: 100%;
+    margin-bottom: 0px;
+}
+
+
+/*  Profile section 1  End */
+
+
+
+
+/* Footer  */
+
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 145, 255);
+    color: white;
+    text-align: center;
+    padding: 40px;
+}

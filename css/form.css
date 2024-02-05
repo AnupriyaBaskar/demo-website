@@ -1,0 +1,43 @@
+.space{
+    padding: 10px;
+}
+
+.form-bg{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/assests/bacground-form.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    display: flex;
+    align-items: center;
+    padding-left: 1200px;
+    margin-bottom: 100px;
+}
+
+.form-div{
+    background-color: white;
+    width: 500px;
+    height: 600px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.stylebtn{
+   margin-top: 20px;
+   margin-left: 10px;
+}
+
+.stylebtnpad{
+    padding: 15px 10px;
+    width: 190px;
+}
+
+.stylebtnpad:hover{
+    width: 350px;
+    transition: 1s;
+}
